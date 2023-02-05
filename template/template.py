@@ -1,6 +1,8 @@
 import time
-
-import settings
+import sys
+import os
+sys.path.append(os.getcwd() + '\settings')
+import config
 import tweepy
 
 
@@ -10,7 +12,7 @@ class TweepyBot:
       # Initialize the bot  
       
         ## Create API object
-        self.auth = tweepy.OAuthHandler(settings.API_KEY, settings.API_KEY_SECRET)
+        self.auth = tweepy.OAuthHandler(config.API_KEY, config.API_KEY_SECRET)
         self.api = tweepy.API(self.auth)
         
     def tweet(self):

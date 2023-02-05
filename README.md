@@ -22,7 +22,7 @@ To start, we must first install the Tweepy Module
    <ul><li>To install, open up a new terminal in VSCode (or type Ctrl-T if on Windows), and type in the terminal "pip install tweepy" </li></ul>
 
 2. Creating a Twitter developer account
-<ul><li> Head over to the <a href = "https://developer.twitter.com"><b>Twitter Developer Portal</b></a> and follow along with the pictures </li></ul>
+<ul><ul><li> Head over to the <a href = "https://developer.twitter.com"><b>Twitter Developer Portal</b></a> and follow along with the pictures </li></ul></ul>
 
 <img src = "https://i.gyazo.com/634d1cd9f2424b7a1ce562aec6afaf47.jpg" > </img>
 <img src = "https://i.gyazo.com/fa9e95640959d44609d0dde3249971a2.png" > </img>
@@ -36,12 +36,12 @@ To start, we must first install the Tweepy Module
 <img src = "https://i.gyazo.com/06aec855ab344e6ef77c2de298fde1fd.png" > <img>
 <img src = "https://i.gyazo.com/acafb451593b85bec42f8024ec1aa39e.png"> </img>
 
-<center>You should see three different keys. Copy them and place them under the appropiate headings in your settings.py file. These keys will be used to authenticate your account
+<center>You should see three different keys. Copy them and place them under the appropiate headings in your settings.py file. These keys will be used to authenticate your account</ul>
 
  <ul> 
  <h3> <b>Side Note</b></h3>
- 1. It's important you keep these safe and secret (or anyone else can access your app, which we don't want).</ul>
- 2. Don't worry, if you forget them or lose them there is a way to re-generate them as well.</ul></center><br>
+ 1. It's important you keep these safe and secret (or anyone else can access your app, which we don't want)<br>
+ 2. Don't worry, if you forget them or lose them there is a way to re-generate them as well.</center><br></ul>
 <ul><center>
 <h1 >How To Regenerate Keys (Optional)</h1>
 <h3> If you lost for your keys or want to regenerate, follow along, otherwise you can skip this step.
@@ -55,12 +55,12 @@ To start, we must first install the Tweepy Module
 <ul><li>
 <h3>Go to  <a href = "https://developer.twitter.com/en/portal/dashboard"> 
 https://developer.twitter.com/en/portal/dashboard</a> and under the "Products" section click on Twitter API v2. </li><li>
-</h3><h3>Click the apply"Apply" and fill out the form. You will be asked some basics questions, i.e "Why will you use TwitterAPI for?". Getting this access will allow us to give our bot more functionality</h3></li></ul><br></br>
+</h3><h3>Click the apply"Apply" and fill out the form. You will be asked some basics questions, i.e "Why will you use TwitterAPI for?". Getting this access will allow us to give our bot more functionality</h3></li></ul><br></br></li>
 
 <h1> <center>Setting up Authentication</center></h1>
 <ul><li>
 <h3>Go to  <a href = "https://developer.twitter.com/en/portal/dashboard"> 
-https://developer.twitter.com/en/portal/dashboard</a> and under "Project 1", you should see the name of your project. Click on it, and  follow along with the pictures. </li><li>
+https://developer.twitter.com/en/portal/dashboard</a> and under "Project 1", you should see the name of your project. Click on it, and  follow along with the pictures. </ul></li>
 
 <img src = "https://i.gyazo.com/97c10305dc091053a696f89b4b648714.png"></img>
 
@@ -70,7 +70,7 @@ https://developer.twitter.com/en/portal/dashboard</a> and under "Project 1", you
 
 </h3>
 <h1>STEP 2 -  Programming the bot & template.py File</h1>
- <center>
+ <br><center>
 <h3> If you want to make your bot more advanced and see a full set of all the functionality you can 
 give to your bot,<a href = "https://docs.tweepy.org/en/stable/"> https://docs.tweepy.org/en/stable/ </a> is your best friend.
 </center>
