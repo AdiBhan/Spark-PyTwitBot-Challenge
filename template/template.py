@@ -1,6 +1,6 @@
-import time
-import sys
+# Bugged Version
 import os
+
 sys.path.append(os.getcwd() + '\settings')
 import config
 import tweepy
@@ -17,9 +17,9 @@ class TweepyBot:
         
     def tweet(self):
         ## Tweet a message
-        return self.api.update_status("My first automated Tweet! #SparkFun #Python #Tweepy");
+        print( self.api.update_tatus("My first automated Tweet! #SparkFun #Python #Tweepy"));
     
 # Run the bot    
-if __name__ == "__main__":
+if name == "__main__":
     bot = TweepyBot()
-    bot.tweet()
+    bot.tweet("Hi")
